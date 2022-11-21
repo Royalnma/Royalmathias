@@ -1,0 +1,92 @@
+body {
+    background-color: lightgray;
+    padding: 30px 150px;
+}
+img {
+    border-radius: 20px;
+    width: 500px;
+    height: 400px;
+}
+.wrapper {
+    padding: 10px 40px;
+    width: 87%;
+    margin: 0 auto;
+}
+a {
+    text-decoration: none;
+}
+nav.navi {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+ul.navigation {
+    display: flex;
+}
+li {
+    list-style-type: none;
+}
+ul.navigation li {
+   margin-left: 25px;
+}
+ul.navigation li a {
+    color: black;
+}
+ul.navigation li button {
+    color: white;
+    background-color: black;
+    padding: 5px 12px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+}
+.Name {
+    color: brown;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+}
+.surname {
+    color: maroon;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+}
+div.intro-text {
+    width: 380px;
+    margin: 25px;
+    align-items: right;
+
+}
+div.intro {
+    margin-bottom: 50px;
+    display: flex;
+    
+}
+div.about {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+}
+div.about-text {
+    width: 380px;
+    
+}
+div.skill span {
+    display: flex;
+    justify-content: space-between;
+    align-items: right;
+}
+div.skill span li {
+   border: 1px;
+   border-style: solid; 
+   border-radius: 5px;
+   border-color: black;
+   padding: 2px;
+   font-size: 13px;
+   margin: 3px;
+}
+p {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 18px;
+}
